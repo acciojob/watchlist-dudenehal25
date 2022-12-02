@@ -41,5 +41,12 @@ public class MovieService {
     }
 
 
+    public void deleteDirector(String director){
+        movieReposiotry.deleteDirector(director);
+    }
+
+    public void deleteAllDirectors(){
+        movieReposiotry.deleteAllDirector();
+    }
 
 }
